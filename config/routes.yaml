@@ -1,7 +1,8 @@
-controllers:
-    resource: ../src/Controller/
+blog:
+    resource: ../src/Infra/Blog/Controller/
     type: annotation
 
-kernel:
-    resource: ../src/Kernel.php
+admin:
+    resource: ../src/Infra/Admin/Controller/
     type: annotation
+
