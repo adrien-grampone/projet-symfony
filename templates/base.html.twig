@@ -18,12 +18,11 @@
         {% endblock %}
     </head>
     <body>
-    <nav>
-                {% for link in menu %}
-                <a
-                            href="{{ path(link.route) }}">{{ link.label }}</a>
-                    {% endfor %}
-    </nav>
+        <nav>
+            {% for link in menu %}
+                <a href="{{ path(link.route) }}">{{ link.label }}</a>
+            {% endfor %}
+        </nav>
         {% block body %}{% endblock %}
     </body>
 </html>

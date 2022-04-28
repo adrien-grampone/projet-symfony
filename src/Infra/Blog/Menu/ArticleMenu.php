@@ -9,7 +9,7 @@ use App\Infra\Menu\Link;
 class ArticleMenu implements Link
 {
     private const menuItems = [
-        ['label' => 'Home', 'route' => 'home']
+        ['label' => 'Accueil', 'route' => 'home'],
     ];
 
     public function getLinks(): iterable
